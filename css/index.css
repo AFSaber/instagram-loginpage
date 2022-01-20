@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #FAFAFA;
+    font-family: sans-serif;
+    cursor:default;
+}
+
+
+.header {
+    font-family:  'Pacifico', cursive;
+    color:#262626;
+    font-size:3rem;
+    margin-top:-2rem;
+    margin-bottom:1.3rem;
+    font-weight:200;
+}
+
+.container {
+    width:21.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin:2rem auto;
+    background-color:#FFFFFF;
+    padding-top:3rem;
+    box-shadow: 0 0 0 1px #ccc;
+}
+
+.container form input{
+    display: block;
+    width:16.75rem;
+    height: 2.5rem;
+    margin-top:.5rem;
+    text-align: left;
+    padding-left:0.5rem;
+    background-color: #FAFAFA;
+    border:none;
+    box-shadow: 0 0 0 1px #ccc;
+    
+}
+
+.container form button {
+    width: 16.8rem;
+    height: 1.875rem;
+    margin-top:.8rem;
+    text-align: center;
+    padding-left:0.5rem;
+    background-color: #B2DFFC;
+    color:#FFFFFF;
+    border:none;
+    border-radius: 3px;
+}
+
+.login-failed-msg {
+    display: none;
+    margin:-0.5rem 0 0.3rem 0;
+    padding:0 2rem;
+    font-size: 0.8rem;
+    color:#ED4956;
+    line-height: 1.3rem;
+}
+
+.line {
+    width: 77%;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.2rem;
+    margin:1rem;
+}
+
+.line span {
+    background-color: #FFFFFF;
+    padding:0 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:rgb(168, 162, 162);
+}
+
+.forget-password {
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.forget-password a:first-child {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color:#0a4681;
+}
+
+.forget-password a:first-child i {
+   font-size: 1.4rem;
+   padding-right:0.3rem;
+}
+
+.forget-password a:last-child {
+    font-size: 0.7rem;
+    text-decoration: none;
+    color:#0a4681;
+    margin-bottom: 1rem;
+
+}
+
+.sign-up {
+    margin:-1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.4rem 0;
+    font-size:0.8rem;
+}
+
+.sign-up a {
+    color:#0095F6;
+    text-decoration: none;
+}
+.download-app{
+    padding-top:0.5rem;
+    background-color:inherit;
+    box-shadow: none;
+}
+
+.download-app p {
+    padding-bottom: 1.5rem;
+}
+
+.stores {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.stores img {
+    width: 8.375rem;
+    height:2.25rem ;
+    margin-right: 0.4rem;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding-top:.5rem ;
+    padding-right:.5rem ;
+    background-color:inherit;
+    box-shadow: none;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    font-size: 0.7rem;
+    padding-right:1rem;
+    text-decoration: none;
+    color:#8E8E8E;
+}
+
+.copy-right {
+    width: 100%;
+    background-color: inherit;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    margin-top:-2rem
+}
+
+.copy-right select {
+    width:4.5rem;
+    border:none;
+    background-color: inherit;
+    color:#8E8E8E;
+    margin-right:0.5rem
+}
+
+.copy-right p {
+    font-size: 0.9rem;
+    color:#8E8E8E;
+}
